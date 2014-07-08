@@ -1,0 +1,3 @@
+set xlabel "Time of day"
+set ylabel "Blood Glucose (mg/dL)"
+plot './outputs' using 1:2 with lines;
